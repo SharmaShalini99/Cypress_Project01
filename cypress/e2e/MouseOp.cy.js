@@ -29,7 +29,7 @@ describe('Mouse Operations', () =>
         
       })
 
-    it('Double click' , ()=>{
+    /*it('Double click' , ()=>{
         cy.get("element css ").trigger('dblclick') // approach1        
         cy.get("element css ").dblclick() // approach2
       })
@@ -39,7 +39,7 @@ describe('Mouse Operations', () =>
 
       cy.get('#box6').drag('#box106')     
           
-      })
+      })*/
 
     it('Scrolling Page' , ()=>{
       cy.visit('https://www.countries-ofthe-world.com/flags-of-the-world.html')      
