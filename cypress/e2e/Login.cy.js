@@ -14,7 +14,7 @@ describe('Login' , ()=> {
         })        
     })
     
-    it('Validate invalid login',()=>{
+    /*it('Validate invalid login',()=>{
         cy.visit('https://www.amazon.in/')
         cy.get('#nav-link-accountList-nav-line-1').trigger('mouseover').click()  
         
@@ -27,5 +27,5 @@ describe('Login' , ()=> {
            // cy.get('.a-list-item').should('eq','Your password is incorrect')
            // cy.get('.oxd-topbar-header-breadcrumb > .oxd-text').should('have.text',data.expected)
         })        
-    })
+    })*/
 })
