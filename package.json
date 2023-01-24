@@ -1,17 +1,25 @@
 {
   "name": "cypress_project01",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "shalini",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^12.3.0"
-  },
   "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.3.0",
     "cypress-mochawesome-reporter": "^3.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharmaShalini99/Cypress_Project01.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SharmaShalini99/Cypress_Project01/issues"
+  },
+  "homepage": "https://github.com/SharmaShalini99/Cypress_Project01#readme",
+  "description": ""
 }
